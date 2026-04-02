@@ -1,0 +1,859 @@
+[
+  {
+    "id": 144,
+    "brief": "古风清醒语录大字封面",
+    "scenarios": [
+      "情感语录分享",
+      "心灵治愈内容",
+      "文学账号封面"
+    ],
+    "style": "古风留白",
+    "size": "1242×1660",
+    "platforms": [
+      "小红书"
+    ],
+    "visual": "米黄底大字居中，山水装饰衬托",
+    "content_density": "light",
+    "branding": {
+      "has_logo": false,
+      "has_qrcode": false
+    },
+    "edit_spec": "edit_specs/t144.json",
+    "background_type": "textured",
+    "slot_capacity": [
+      {
+        "role": "main_title",
+        "max_chars": 12,
+        "max_per_line": 3,
+        "line_break": false
+      },
+      {
+        "role": "subtitle",
+        "max_chars": 16,
+        "max_per_line": 4,
+        "line_break": false
+      }
+    ],
+    "visual_tags": [
+      "水墨意境",
+      "印刷大字",
+      "极简留白"
+    ],
+    "color_palette": [
+      "#E8E0C8",
+      "#2B2B2B",
+      "#8B7355"
+    ],
+    "decorative_interference": "low",
+    "layout_structure": "hero_text",
+    "usage_type": "cover"
+  },
+  {
+    "id": 148,
+    "brief": "大字爆款吸睛小红书封面",
+    "scenarios": [
+      "学习干货分享",
+      "知识博主引流",
+      "教程内容封面"
+    ],
+    "style": "手写冲击",
+    "size": "1242×1660",
+    "platforms": [
+      "小红书"
+    ],
+    "visual": "白底lined纸纹，黑色大字+黄色高亮装饰",
+    "content_density": "light",
+    "branding": {
+      "has_logo": false,
+      "has_qrcode": false
+    },
+    "edit_spec": "edit_specs/t148.json",
+    "background_type": "textured",
+    "slot_capacity": [
+      {
+        "role": "main_title",
+        "max_chars": 12,
+        "max_per_line": 3,
+        "line_break": false
+      },
+      {
+        "role": "en_decoration",
+        "max_chars": 16,
+        "max_per_line": 4,
+        "line_break": false
+      },
+      {
+        "role": "en_decoration",
+        "max_chars": 8,
+        "max_per_line": 2,
+        "line_break": false
+      }
+    ],
+    "visual_tags": [
+      "荧光高亮",
+      "手账风",
+      "大字排版"
+    ],
+    "color_palette": [
+      "#FFFFFF",
+      "#000000",
+      "#FFE84D"
+    ],
+    "decorative_interference": "low",
+    "layout_structure": "hero_text",
+    "usage_type": "cover"
+  },
+  {
+    "id": 149,
+    "brief": "大字排版网感爆款封面模板",
+    "scenarios": [
+      "知识分享封面",
+      "个人博主标题图",
+      "热点话题封面"
+    ],
+    "style": "网感冲击",
+    "size": "1242×1660",
+    "platforms": [
+      "小红书"
+    ],
+    "visual": "窗口框架内超大黑体字堆叠排列",
+    "content_density": "light",
+    "branding": {
+      "has_logo": false,
+      "has_qrcode": false
+    },
+    "edit_spec": "edit_specs/t149.json",
+    "background_type": "white_illustrated",
+    "slot_capacity": [
+      {
+        "role": "main_title",
+        "max_chars": 16,
+        "max_per_line": 4,
+        "line_break": false
+      }
+    ],
+    "visual_tags": [
+      "大字冲击",
+      "荧光划线",
+      "手绘窗口框"
+    ],
+    "color_palette": [
+      "#FFFFFF",
+      "#000000",
+      "#CCFF00"
+    ],
+    "decorative_interference": "low",
+    "layout_structure": "hero_text",
+    "usage_type": "cover"
+  },
+  {
+    "id": 183,
+    "brief": "攻略科普型封面，主标题+3条要点列表，适合新媒体运营技巧、干货科普类内容",
+    "scenarios": [
+      "新媒体运营",
+      "自媒体技巧",
+      "内容攻略",
+      "知识科普"
+    ],
+    "style": "攻略列表",
+    "size": "1242×1660",
+    "platforms": [
+      "小红书",
+      "微信公众号"
+    ],
+    "visual": "浅底色，大字主标题+竖排要点列表，清晰分层，有干货感",
+    "content_density": "light",
+    "branding": {
+      "has_logo": false,
+      "has_qrcode": false
+    },
+    "edit_spec": "edit_specs/t183.json",
+    "text_align_main": "center",
+    "slot_capacity": [
+      {
+        "role": "main_title",
+        "max_chars": 10,
+        "max_per_line": 5,
+        "line_break": false
+      },
+      {
+        "role": "subtitle",
+        "max_chars": 14,
+        "max_per_line": 9,
+        "line_break": false
+      }
+    ],
+    "visual_tags": [
+      "格子纸背景",
+      "手绘橙色字",
+      "可爱图标装饰",
+      "胶带纸条",
+      "新媒体运营风"
+    ],
+    "color_palette": [
+      "白",
+      "橙",
+      "蓝"
+    ],
+    "decorative_interference": "medium",
+    "layout_structure": "multi_block",
+    "usage_type": "cover"
+  },
+  {
+    "id": 184,
+    "brief": "电影台词情感语录封面",
+    "scenarios": [
+      "情感语录分享",
+      "电影台词推荐",
+      "文案灵感集锦"
+    ],
+    "style": "手写极简文艺",
+    "size": "1242×1660",
+    "platforms": [
+      "小红书"
+    ],
+    "visual": "白色卡片贴纸风，主标题大字居中",
+    "content_density": "medium",
+    "branding": {
+      "has_logo": false,
+      "has_qrcode": false
+    },
+    "edit_spec": "edit_specs/t184.json",
+    "background_type": "white_illustrated",
+    "slot_capacity": [
+      {
+        "role": "main_title",
+        "max_chars": 20,
+        "max_per_line": 5,
+        "line_break": false
+      },
+      {
+        "role": "subtitle",
+        "max_chars": 4,
+        "max_per_line": 1,
+        "line_break": false
+      },
+      {
+        "role": "tagline",
+        "max_chars": 52,
+        "max_per_line": 13,
+        "line_break": false
+      },
+      {
+        "role": "body_desc",
+        "max_chars": 20,
+        "max_per_line": 5,
+        "line_break": false
+      }
+    ],
+    "visual_tags": [
+      "胶带装饰",
+      "拍立得卡片",
+      "手写字体"
+    ],
+    "color_palette": [
+      "#FFFFFF",
+      "#1A1A1A",
+      "#D4B896"
+    ],
+    "decorative_interference": "low",
+    "layout_structure": "split_section",
+    "usage_type": "cover"
+  },
+  {
+    "id": 185,
+    "brief": "大字单标题型封面，主标题占满画面，适合生活娱乐、攻略话题",
+    "scenarios": [
+      "生活娱乐",
+      "网站攻略",
+      "好物推荐",
+      "生活技巧"
+    ],
+    "style": "单字冲击",
+    "size": "1242×1660",
+    "platforms": [
+      "小红书"
+    ],
+    "visual": "彩色背景，大字主标题居中，简洁无多余装饰",
+    "content_density": "light",
+    "branding": {
+      "has_logo": false,
+      "has_qrcode": false
+    },
+    "edit_spec": "edit_specs/t185.json",
+    "text_align_main": "center",
+    "slot_capacity": [
+      {
+        "role": "main_title",
+        "max_chars": 20,
+        "max_per_line": 6,
+        "line_break": false
+      },
+      {
+        "role": "tagline",
+        "max_chars": 12,
+        "max_per_line": 7,
+        "line_break": false
+      }
+    ],
+    "visual_tags": [
+      "实景照片背景",
+      "科技设备",
+      "手写风白字",
+      "绿色胶囊标签",
+      "小众工具风"
+    ],
+    "color_palette": [
+      "深灰",
+      "白",
+      "绿"
+    ],
+    "decorative_interference": "low",
+    "layout_structure": "split_section",
+    "usage_type": "cover"
+  },
+  {
+    "id": 179,
+    "brief": "学习攻略10条要点配图，列表型，适合备考、学习方法、干货攻略的配套正文图",
+    "scenarios": [
+      "学习攻略",
+      "备考干货",
+      "效率提升",
+      "学习方法"
+    ],
+    "style": "干货列表",
+    "size": "1242×1660",
+    "platforms": [
+      "小红书"
+    ],
+    "visual": "清爽底色，10条要点竖排列表，内容密度高，干货感强",
+    "content_density": "heavy",
+    "branding": {
+      "has_logo": false,
+      "has_qrcode": false
+    },
+    "edit_spec": "edit_specs/t179.json",
+    "text_align_main": "center",
+    "slot_capacity": [
+      {
+        "role": "main_title",
+        "max_chars": 16,
+        "max_per_line": 6,
+        "line_break": false
+      },
+      {
+        "role": "subtitle",
+        "max_chars": 10,
+        "max_per_line": 5,
+        "line_break": false
+      },
+      {
+        "role": "item_1",
+        "max_chars": 50,
+        "max_per_line": 24,
+        "line_break": true
+      },
+      {
+        "role": "item_2",
+        "max_chars": 40,
+        "max_per_line": 24,
+        "line_break": false
+      },
+      {
+        "role": "item_3",
+        "max_chars": 40,
+        "max_per_line": 24,
+        "line_break": false
+      },
+      {
+        "role": "item_4",
+        "max_chars": 40,
+        "max_per_line": 24,
+        "line_break": false
+      },
+      {
+        "role": "item_5",
+        "max_chars": 40,
+        "max_per_line": 24,
+        "line_break": false
+      },
+      {
+        "role": "item_6",
+        "max_chars": 40,
+        "max_per_line": 24,
+        "line_break": false
+      },
+      {
+        "role": "item_7",
+        "max_chars": 40,
+        "max_per_line": 24,
+        "line_break": false
+      },
+      {
+        "role": "item_8",
+        "max_chars": 40,
+        "max_per_line": 24,
+        "line_break": false
+      }
+    ],
+    "visual_tags": [
+      "笔记本风格",
+      "橙色手写",
+      "编号列表",
+      "学习干货",
+      "暖色系",
+      "圆形编号"
+    ],
+    "color_palette": [
+      "米白色",
+      "橙色",
+      "棕色",
+      "灰色"
+    ],
+    "decorative_interference": "low",
+    "layout_structure": "title_with_list",
+    "usage_type": "content"
+  },
+  {
+    "id": 180,
+    "brief": "美容培训课程优势展示配图",
+    "scenarios": [
+      "美容培训招生宣传",
+      "课程优势介绍",
+      "职业技能培训推广"
+    ],
+    "style": "奶茶温柔杂志风",
+    "size": "1242×1660",
+    "platforms": [
+      "小红书"
+    ],
+    "visual": "居中标题搭配四条列表清单结构",
+    "content_density": "light",
+    "branding": {
+      "has_logo": false,
+      "has_qrcode": false
+    },
+    "edit_spec": "edit_specs/t180.json",
+    "background_type": "gradient",
+    "slot_capacity": [
+      {
+        "role": "main_title",
+        "max_chars": 16,
+        "max_per_line": 4,
+        "line_break": false
+      },
+      {
+        "role": "subtitle",
+        "max_chars": 72,
+        "max_per_line": 18,
+        "line_break": false
+      }
+    ],
+    "visual_tags": [
+      "暖米色背景",
+      "列表清单",
+      "简约线条装饰"
+    ],
+    "color_palette": [
+      "#F5EDE4",
+      "#8B6F5E",
+      "#D4B8A8"
+    ],
+    "decorative_interference": "low",
+    "layout_structure": "title_with_list",
+    "usage_type": "content"
+  },
+  {
+    "id": 181,
+    "brief": "备考攻略10条划重点配图，适合考试备考、学习提示类内容的配套图",
+    "scenarios": [
+      "备考攻略",
+      "学习重点",
+      "考试技巧",
+      "知识清单"
+    ],
+    "style": "划重点列表",
+    "size": "1242×1660",
+    "platforms": [
+      "小红书"
+    ],
+    "visual": "清爽底色，10条内容带划线重点效果，清晰易读",
+    "content_density": "heavy",
+    "branding": {
+      "has_logo": false,
+      "has_qrcode": false
+    },
+    "edit_spec": "edit_specs/t181.json",
+    "text_align_main": "left",
+    "slot_capacity": [
+      {
+        "role": "main_title",
+        "max_chars": 12,
+        "max_per_line": 5,
+        "line_break": false
+      },
+      {
+        "role": "subtitle",
+        "max_chars": 14,
+        "max_per_line": 10,
+        "line_break": false
+      },
+      {
+        "role": "step_1_title",
+        "max_chars": 10,
+        "max_per_line": 6,
+        "line_break": false
+      },
+      {
+        "role": "step_1_detail",
+        "max_chars": 80,
+        "max_per_line": 26,
+        "line_break": true
+      },
+      {
+        "role": "step_2_title",
+        "max_chars": 10,
+        "max_per_line": 6,
+        "line_break": false
+      },
+      {
+        "role": "step_2_detail",
+        "max_chars": 80,
+        "max_per_line": 26,
+        "line_break": true
+      },
+      {
+        "role": "step_3_title",
+        "max_chars": 10,
+        "max_per_line": 6,
+        "line_break": false
+      },
+      {
+        "role": "step_3_detail",
+        "max_chars": 80,
+        "max_per_line": 26,
+        "line_break": true
+      },
+      {
+        "role": "step_4_title",
+        "max_chars": 10,
+        "max_per_line": 5,
+        "line_break": false
+      },
+      {
+        "role": "step_4_detail",
+        "max_chars": 80,
+        "max_per_line": 26,
+        "line_break": true
+      }
+    ],
+    "visual_tags": [
+      "蓝色清新",
+      "多阶段规划",
+      "分段标题",
+      "备考指南",
+      "铅笔装饰",
+      "虚线边框"
+    ],
+    "color_palette": [
+      "浅蓝色",
+      "白色",
+      "深蓝色",
+      "黄色"
+    ],
+    "decorative_interference": "low",
+    "layout_structure": "title_with_list",
+    "usage_type": "content"
+  },
+  {
+    "id": 182,
+    "brief": "备考指南14条详细配图，超高内容密度，适合需要详尽清单的备考指南",
+    "scenarios": [
+      "详细备考",
+      "完整攻略",
+      "考试清单",
+      "学习规划"
+    ],
+    "style": "详尽清单",
+    "size": "1242×1660",
+    "platforms": [
+      "小红书"
+    ],
+    "visual": "清爽底色，14条竖排密集内容，信息量极大",
+    "content_density": "heavy",
+    "branding": {
+      "has_logo": false,
+      "has_qrcode": false
+    },
+    "edit_spec": "edit_specs/t182.json",
+    "text_align_main": "center",
+    "slot_capacity": [
+      {
+        "role": "main_title",
+        "max_chars": 16,
+        "max_per_line": 9,
+        "line_break": false
+      },
+      {
+        "role": "subtitle",
+        "max_chars": 12,
+        "max_per_line": 8,
+        "line_break": false
+      },
+      {
+        "role": "phase_1_title",
+        "max_chars": 14,
+        "max_per_line": 9,
+        "line_break": false
+      },
+      {
+        "role": "phase_1_item_1",
+        "max_chars": 30,
+        "max_per_line": 17,
+        "line_break": false
+      },
+      {
+        "role": "phase_1_item_2",
+        "max_chars": 30,
+        "max_per_line": 24,
+        "line_break": false
+      },
+      {
+        "role": "phase_1_item_3",
+        "max_chars": 40,
+        "max_per_line": 24,
+        "line_break": true
+      },
+      {
+        "role": "phase_2_title",
+        "max_chars": 14,
+        "max_per_line": 10,
+        "line_break": false
+      },
+      {
+        "role": "phase_2_item_1",
+        "max_chars": 30,
+        "max_per_line": 14,
+        "line_break": false
+      },
+      {
+        "role": "phase_2_item_2",
+        "max_chars": 30,
+        "max_per_line": 22,
+        "line_break": false
+      },
+      {
+        "role": "phase_2_item_3",
+        "max_chars": 40,
+        "max_per_line": 23,
+        "line_break": true
+      },
+      {
+        "role": "phase_3_title",
+        "max_chars": 14,
+        "max_per_line": 9,
+        "line_break": false
+      },
+      {
+        "role": "phase_3_item_1",
+        "max_chars": 30,
+        "max_per_line": 18,
+        "line_break": false
+      },
+      {
+        "role": "phase_3_item_2",
+        "max_chars": 30,
+        "max_per_line": 22,
+        "line_break": false
+      },
+      {
+        "role": "phase_3_item_3",
+        "max_chars": 40,
+        "max_per_line": 17,
+        "line_break": true
+      }
+    ],
+    "visual_tags": [
+      "蓝色笔记本",
+      "多阶段规划",
+      "考研备考",
+      "圆润字体",
+      "灯泡图标",
+      "打孔背景"
+    ],
+    "color_palette": [
+      "浅蓝色",
+      "黄色",
+      "白色",
+      "深蓝"
+    ],
+    "decorative_interference": "low",
+    "layout_structure": "title_with_list",
+    "usage_type": "content"
+  },
+  {
+    "id": 1,
+    "brief": "月计划/年度清单手机海报，10+字段，卡通插画风，适合月度计划、年度总结等清单类内容",
+    "scenarios": [
+      "月度计划",
+      "年度清单",
+      "备忘清单",
+      "计划分享"
+    ],
+    "style": "卡通清单",
+    "size": "1242×2208",
+    "platforms": [
+      "微信朋友圈",
+      "手机壁纸",
+      "微信公众号"
+    ],
+    "visual": "卡通风格插画背景，清单格式密集排布，可爱活泼感",
+    "content_density": "heavy",
+    "branding": {
+      "has_logo": true,
+      "has_qrcode": false,
+      "logo_note": "顶部品牌名称"
+    },
+    "edit_spec": "edit_specs/t1.json",
+    "text_align_main": "center",
+    "slot_capacity": [
+      {
+        "role": "month",
+        "max_chars": 4,
+        "max_per_line": 2,
+        "line_break": false
+      },
+      {
+        "role": "main_title",
+        "max_chars": 8,
+        "max_per_line": 4,
+        "line_break": false
+      },
+      {
+        "role": "tagline",
+        "max_chars": 10,
+        "max_per_line": 4,
+        "line_break": false
+      },
+      {
+        "role": "goal_1",
+        "max_chars": 8,
+        "max_per_line": 2,
+        "line_break": false
+      },
+      {
+        "role": "goal_1_detail",
+        "max_chars": 16,
+        "max_per_line": 4,
+        "line_break": false
+      },
+      {
+        "role": "goal_2",
+        "max_chars": 8,
+        "max_per_line": 2,
+        "line_break": false
+      },
+      {
+        "role": "goal_2_detail",
+        "max_chars": 16,
+        "max_per_line": 7,
+        "line_break": false
+      },
+      {
+        "role": "goal_3",
+        "max_chars": 8,
+        "max_per_line": 5,
+        "line_break": false
+      },
+      {
+        "role": "goal_3_detail",
+        "max_chars": 24,
+        "max_per_line": 14,
+        "line_break": true
+      },
+      {
+        "role": "goal_4_detail",
+        "max_chars": 16,
+        "max_per_line": 6,
+        "line_break": false
+      }
+    ],
+    "visual_tags": [
+      "记事本卡片",
+      "冬季雪景",
+      "可爱字体",
+      "雪人插画",
+      "计划清单",
+      "微商日签"
+    ],
+    "color_palette": [
+      "蓝灰色",
+      "白色",
+      "黄色",
+      "橙红色"
+    ],
+    "decorative_interference": "medium",
+    "layout_structure": "multi_block",
+    "usage_type": "poster"
+  },
+  {
+    "id": 7,
+    "brief": "春节/节日贺卡海报，传统风格，主标题+副标题+祝福语，适合春节、节假日祝福",
+    "scenarios": [
+      "春节祝福",
+      "节日贺卡",
+      "新春问候",
+      "节假日"
+    ],
+    "style": "节日贺卡",
+    "size": "1242×2208",
+    "platforms": [
+      "微信朋友圈",
+      "手机壁纸"
+    ],
+    "visual": "中国红+金色传统节日配色，祝福语大字居中，喜庆吉祥感",
+    "content_density": "light",
+    "branding": {
+      "has_logo": false,
+      "has_qrcode": false
+    },
+    "edit_spec": "edit_specs/t7.json",
+    "slot_capacity": [
+      {
+        "role": "year",
+        "max_chars": 6,
+        "max_per_line": 2,
+        "line_break": false
+      },
+      {
+        "role": "recipient",
+        "max_chars": 16,
+        "max_per_line": 6,
+        "line_break": false
+      },
+      {
+        "role": "message_body",
+        "max_chars": 100,
+        "max_per_line": 11,
+        "line_break": true
+      }
+    ],
+    "visual_tags": [
+      "新年贺卡",
+      "舞狮插画",
+      "中国红",
+      "节日喜庆",
+      "对联格式",
+      "卷轴设计"
+    ],
+    "color_palette": [
+      "大红色",
+      "金黄色",
+      "米色",
+      "橙色"
+    ],
+    "decorative_interference": "high",
+    "layout_structure": "split_with_image",
+    "usage_type": "poster"
+  }
+]

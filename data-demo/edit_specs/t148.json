@@ -1,0 +1,54 @@
+{
+  "id": 148,
+  "slots": [
+    {
+      "uuid": "3b661f820d98",
+      "role": "main_title",
+      "label": "主标题",
+      "must_edit": true,
+      "deletable": false,
+      "max_chars": 12,
+      "line_break": false,
+      "hint": "示例：赶紧\n进来学习\n······",
+      "current": "赶紧\n进来学习\n······",
+      "char_px": 239.2,
+      "element_width_px": 921.0,
+      "max_per_line": 3,
+      "fill_source": "original_content",
+      "fill_guidance": "根据用户内容主题创作，需简洁有力，直击核心"
+    },
+    {
+      "uuid": "4d7c2ebc3ee0",
+      "role": "en_decoration",
+      "label": "英文装饰",
+      "must_edit": true,
+      "deletable": false,
+      "max_chars": 16,
+      "line_break": false,
+      "hint": "示例：Memo No.",
+      "current": "Memo No.",
+      "char_px": 18.7,
+      "element_width_px": 85.0,
+      "max_per_line": 4,
+      "fill_source": "template_default",
+      "fill_guidance": "英文装饰文字，保留默认或按内容主题替换为相关英文"
+    },
+    {
+      "uuid": "4b4181b0c7dd",
+      "role": "en_decoration",
+      "label": "英文装饰",
+      "must_edit": true,
+      "deletable": false,
+      "max_chars": 8,
+      "line_break": false,
+      "hint": "示例：Date",
+      "current": "Date",
+      "char_px": 18.7,
+      "element_width_px": 39.0,
+      "max_per_line": 2,
+      "fill_source": "template_default",
+      "fill_guidance": "英文装饰文字，保留默认或按内容主题替换为相关英文"
+    }
+  ],
+  "cover": "assets/covers_webp/t148-cover_0.webp"
+}

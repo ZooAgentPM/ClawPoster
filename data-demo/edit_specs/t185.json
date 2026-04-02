@@ -1,0 +1,38 @@
+{
+  "id": 185,
+  "slots": [
+    {
+      "uuid": "fc0680aa588f",
+      "role": "main_title",
+      "label": "主标题",
+      "must_edit": true,
+      "deletable": false,
+      "max_chars": 20,
+      "line_break": false,
+      "hint": "一句话引发好奇心的标题，如「一般人不知道的小众网站」「90%人不知道的学习技巧」",
+      "current": "一般人不知道的小众网站",
+      "char_px": 167.6,
+      "element_width_px": 1123,
+      "max_per_line": 6,
+      "fill_source": "original_content",
+      "fill_guidance": "根据用户内容主题创作，需简洁有力，直击核心"
+    },
+    {
+      "uuid": "6d19f8deaab1",
+      "role": "tagline",
+      "label": "副标语",
+      "must_edit": true,
+      "deletable": false,
+      "max_chars": 12,
+      "line_break": false,
+      "hint": "强化标题承诺，如「每个都好用到哭」「亲测有效必收藏」",
+      "current": "每个都好用到哭",
+      "char_px": 77.9,
+      "element_width_px": 545,
+      "max_per_line": 7,
+      "fill_source": "original_content",
+      "fill_guidance": "填写主题口号，简洁有力"
+    }
+  ],
+  "cover": "assets/covers_webp/t185-cover_0.webp"
+}

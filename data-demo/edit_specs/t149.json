@@ -1,0 +1,54 @@
+{
+  "id": 149,
+  "slots": [
+    {
+      "uuid": "8e21dd61907f",
+      "role": "main_title",
+      "label": "主标题",
+      "must_edit": true,
+      "deletable": false,
+      "max_chars": 16,
+      "line_break": false,
+      "hint": "示例：网感\n标题模板\n随意使用\n不用客气！",
+      "current": "网感\n标题模板\n随意使用\n不用客气！",
+      "char_px": 197.6,
+      "element_width_px": 956.0,
+      "max_per_line": 4,
+      "fill_source": "original_content",
+      "fill_guidance": "根据用户内容主题创作，需简洁有力，直击核心"
+    },
+    {
+      "uuid": "ab1788697710",
+      "role": "text_decoration",
+      "label": "文字装饰（BIAOTI）",
+      "must_edit": false,
+      "deletable": false,
+      "max_chars": 12,
+      "line_break": false,
+      "hint": "示例：BIAOTI",
+      "current": "BIAOTI",
+      "char_px": 37.4,
+      "element_width_px": 121.0,
+      "max_per_line": 3,
+      "fill_source": "template_default",
+      "fill_guidance": "装饰性文字，可保留默认值"
+    },
+    {
+      "uuid": "dfc4af907cb1",
+      "role": "text_decoration",
+      "label": "文字装饰（MOBAN）",
+      "must_edit": false,
+      "deletable": false,
+      "max_chars": 12,
+      "line_break": false,
+      "hint": "示例：MOBAN",
+      "current": "MOBAN",
+      "char_px": 37.4,
+      "element_width_px": 138.0,
+      "max_per_line": 3,
+      "fill_source": "template_default",
+      "fill_guidance": "装饰性文字，可保留默认值"
+    }
+  ],
+  "cover": "assets/covers_webp/t149-cover_0.webp"
+}

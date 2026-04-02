@@ -38,16 +38,19 @@ from playwright.async_api import async_playwright
 from pydantic import BaseModel
 
 # ── 路径配置 ──────────────────────────────────────────────────
+# DATA_DIR 可通过环境变量覆盖，支持 demo 数据包（data-demo/）或自定义路径
+import os as _os
 BASE_DIR    = Path(__file__).parent.parent
-RAW_DIR     = BASE_DIR / "data" / "palxp-raw"
-ASSETS_DIR  = BASE_DIR / "data" / "assets"
-OUT_DIR     = BASE_DIR / "data" / "renders"
-COVER_DIR   = BASE_DIR / "data" / "assets" / "covers"
-INDEX_PATH  = BASE_DIR / "data" / "template_index_v2.json"
-VECTORS_PATH = BASE_DIR / "data" / "template_vectors.json"
+DATA_DIR    = Path(_os.environ.get("VISUAL_RAG_DATA_DIR", str(BASE_DIR / "data")))
+RAW_DIR     = DATA_DIR / "palxp-raw"
+ASSETS_DIR  = DATA_DIR / "assets"
+OUT_DIR     = DATA_DIR / "renders"
+COVER_DIR   = DATA_DIR / "assets" / "covers"
+INDEX_PATH  = DATA_DIR / "template_index_v2.json"
+VECTORS_PATH = DATA_DIR / "template_vectors.json"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 ECHARTS_JS    = Path(__file__).parent / "echarts.min.js"   # 本地 ECharts（可选）
-EDIT_SPECS_DIR = BASE_DIR / "data" / "edit_specs"         # 槽位规格目录
+EDIT_SPECS_DIR = DATA_DIR / "edit_specs"                   # 槽位规格目录
 
 # ── 语义搜索：向量库（启动时加载）──────────────────────────────
 _vectors: dict   = {}   # {template_id_str: np.ndarray}

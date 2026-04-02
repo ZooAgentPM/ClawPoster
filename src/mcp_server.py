@@ -31,11 +31,12 @@ from starlette.requests import Request
 from starlette.responses import Response
 
 # ── 路径 ──────────────────────────────────────────────────────
-BASE_DIR       = Path("/Users/mlamp/visual-rag")
-INDEX_PATH     = BASE_DIR / "data" / "template_index_v2.json"
-EDIT_SPECS_DIR = BASE_DIR / "data" / "edit_specs"
+BASE_DIR       = Path(__file__).parent.parent
+_DATA_DIR      = Path(os.environ.get("VISUAL_RAG_DATA_DIR", str(BASE_DIR / "data")))
+INDEX_PATH     = _DATA_DIR / "template_index_v2.json"
+EDIT_SPECS_DIR = _DATA_DIR / "edit_specs"
 RENDER_URL     = "http://127.0.0.1:7002"
-VITE_DIR       = Path("/Users/mlamp/Desktop/虾稿设计-01/渲染器/poster-design")
+VITE_DIR       = BASE_DIR.parent / "虾稿设计-01" / "渲染器" / "poster-design"
 PYTHON         = str(BASE_DIR / ".venv/bin/python")
 
 # 公网基础 URL（通过环境变量注入，供生成下载链接用）

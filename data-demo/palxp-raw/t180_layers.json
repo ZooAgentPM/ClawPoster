@@ -1,0 +1,688 @@
+{
+  "dWidgets": [
+    {
+      "name": "图片",
+      "type": "w-image",
+      "uuid": "309e42db0d6d",
+      "width": 1243,
+      "height": 1661,
+      "left": 0,
+      "top": 0,
+      "zoom": 1,
+      "transform": " scale(1) translate(0px, 0px)",
+      "radius": 0,
+      "opacity": 1,
+      "parent": "-1",
+      "imgUrl": "/Users/mlamp/visual-rag/data/assets/images/421e944021e64744bedc5aee7c74a7d1.png",
+      "mask": "https://design.palxp.cn:5175/static/template/Zf~R1ud9n3nq-1729173911201/9d83f2755eb24b5aad8cb75c7f5f03db.png",
+      "setting": [],
+      "record": {
+        "width": 0,
+        "height": 0,
+        "minWidth": 10,
+        "minHeight": 10,
+        "dir": "all"
+      },
+      "letterSpacing": null,
+      "rotate": 0,
+      "imageTransform": {
+        "a": 1,
+        "b": 0,
+        "c": 0,
+        "d": 1,
+        "tx": 0,
+        "ty": 0
+      },
+      "filter": {
+        "contrast": 0,
+        "sharpness": 0,
+        "hueRotate": 0,
+        "saturate": 0,
+        "brightness": 0,
+        "gaussianBlur": 0,
+        "temperature": 0,
+        "tint": 0
+      },
+      "naturalDuration": 0,
+      "boxTransform": {
+        "left": 0,
+        "top": 0
+      },
+      "imgUrl_remote": "https://design.palxp.cn:5175/static/template/Zf~R1ud9n3nq-1729173911201/421e944021e64744bedc5aee7c74a7d1.png"
+    },
+    {
+      "name": "图片",
+      "type": "w-image",
+      "uuid": "dc314288dbef",
+      "width": 92,
+      "height": 92,
+      "left": 86,
+      "top": 74,
+      "zoom": 1,
+      "transform": " scale(1) translate(0px, 0px)",
+      "radius": 0,
+      "opacity": 0.4,
+      "parent": "-1",
+      "imgUrl": "/Users/mlamp/visual-rag/data/assets/images/6f23bab6f504464ea35d95a2e3633494.png",
+      "setting": [],
+      "record": {
+        "width": 0,
+        "height": 0,
+        "minWidth": 10,
+        "minHeight": 10,
+        "dir": "all"
+      },
+      "letterSpacing": null,
+      "rotate": 0,
+      "imageTransform": {
+        "a": 1,
+        "b": 0,
+        "c": 0,
+        "d": 1,
+        "tx": 0,
+        "ty": 0
+      },
+      "filter": {
+        "contrast": 0,
+        "sharpness": 0,
+        "hueRotate": 0,
+        "saturate": 0,
+        "brightness": 0,
+        "gaussianBlur": 0,
+        "temperature": 0,
+        "tint": 0
+      },
+      "naturalDuration": 0,
+      "boxTransform": {
+        "left": 0,
+        "top": 0
+      },
+      "imgUrl_remote": "https://design.palxp.cn:5175/static/template/Zf~R1ud9n3nq-1729173911201/6f23bab6f504464ea35d95a2e3633494.png"
+    },
+    {
+      "name": "矢量图形",
+      "type": "w-svg",
+      "uuid": "27623c6d0590",
+      "width": 1038.75,
+      "height": 1290.59,
+      "colors": [
+        "#fbf9f8f2"
+      ],
+      "left": 101.73,
+      "top": 154.34,
+      "transform": "",
+      "radius": 0,
+      "opacity": 1,
+      "parent": "-1",
+      "svgUrl": "https://design.palxp.cn:5175/static/template/Zf~R1ud9n3nq-1729173911201/2c053844062144bf84af74ce201fa1cf.svg",
+      "setting": [],
+      "record": {
+        "width": 1039,
+        "height": 1291,
+        "minWidth": 10,
+        "minHeight": 10
+      },
+      "text": "",
+      "letterSpacing": null,
+      "imgUrl": "/Users/mlamp/visual-rag/data/assets/svgs/2c053844062144bf84af74ce201fa1cf.svg",
+      "rotate": 0,
+      "filter": {
+        "contrast": 0,
+        "sharpness": 0,
+        "hueRotate": 0,
+        "saturate": 0,
+        "brightness": 0,
+        "gaussianBlur": 0,
+        "temperature": 0,
+        "tint": 0
+      },
+      "imgUrl_remote": "https://design.palxp.cn:5175/static/template/Zf~R1ud9n3nq-1729173911201/2c053844062144bf84af74ce201fa1cf.svg"
+    },
+    {
+      "name": "图片",
+      "type": "w-image",
+      "uuid": "43f8455d9a57",
+      "width": 64,
+      "height": 64,
+      "left": 1112,
+      "top": 1078,
+      "zoom": 1,
+      "transform": " scale(1) translate(0px, 0px)",
+      "radius": 0,
+      "opacity": 0.4,
+      "parent": "-1",
+      "imgUrl": "/Users/mlamp/visual-rag/data/assets/images/61395229d09048c38ccb70cc5ec0f64a.png",
+      "setting": [],
+      "record": {
+        "width": 0,
+        "height": 0,
+        "minWidth": 10,
+        "minHeight": 10,
+        "dir": "all"
+      },
+      "letterSpacing": null,
+      "rotate": 0,
+      "imageTransform": {
+        "a": 1,
+        "b": 0,
+        "c": 0,
+        "d": 1,
+        "tx": 0,
+        "ty": 0
+      },
+      "filter": {
+        "contrast": 0,
+        "sharpness": 0,
+        "hueRotate": 0,
+        "saturate": 0,
+        "brightness": 0,
+        "gaussianBlur": 0,
+        "temperature": 0,
+        "tint": 0
+      },
+      "naturalDuration": 0,
+      "boxTransform": {
+        "left": 0,
+        "top": 0
+      },
+      "imgUrl_remote": "https://design.palxp.cn:5175/static/template/Zf~R1ud9n3nq-1729173911201/61395229d09048c38ccb70cc5ec0f64a.png"
+    },
+    {
+      "name": "文本",
+      "type": "w-text",
+      "uuid": "abdab5dbb638",
+      "editable": false,
+      "left": 273.31,
+      "top": 671.38,
+      "transform": "",
+      "lineHeight": 2.5,
+      "letterSpacing": 10,
+      "fontSize": 42.3,
+      "fontClass": {
+        "alias": "站酷快乐体",
+        "id": 543,
+        "value": "zcool-kuaile-regular",
+        "url": "/Users/mlamp/visual-rag/data/assets/fonts/zcool-kuaile-regular.woff2",
+        "url_remote": "https://lib.baomitu.com/fonts/zcool-kuaile/zcool-kuaile-regular.woff2"
+      },
+      "fontWeight": 400,
+      "fontStyle": "normal",
+      "writingMode": "horizontal-tb",
+      "textDecoration": "none",
+      "color": "#855a3bff",
+      "textAlign": "justify",
+      "text": "01.小班教学，1V1手把手指导\n02.理论+实操科学排课，高效教学\n03.热门沙龙护理，无忧应用实践\n04.国际美容协会认证考核机构",
+      "opacity": 1,
+      "backgroundColor": "",
+      "parent": "-1",
+      "record": {
+        "width": 827,
+        "height": 423,
+        "minWidth": 42.3,
+        "minHeight": 105.75,
+        "dir": "horizontal"
+      },
+      "width": 827,
+      "height": 423,
+      "imgUrl": "",
+      "rotate": 0,
+      "filter": {
+        "contrast": 0,
+        "sharpness": 0,
+        "hueRotate": 0,
+        "saturate": 0,
+        "brightness": 0,
+        "gaussianBlur": 0,
+        "temperature": 0,
+        "tint": 0
+      },
+      "textEffects": [],
+      "content": "01.小班教学，1V1手把手指导\n02.理论+实操科学排课，高效教学\n03.热门沙龙护理，无忧应用实践\n04.国际美容协会认证考核机构"
+    },
+    {
+      "name": "图片",
+      "type": "w-image",
+      "uuid": "a1ecdb22a4e9",
+      "width": 32,
+      "height": 31,
+      "left": 223.92,
+      "top": 707.13,
+      "zoom": 1,
+      "transform": " scale(1) translate(0px, 0px)",
+      "radius": 0,
+      "opacity": 1,
+      "parent": "-1",
+      "imgUrl": "/Users/mlamp/visual-rag/data/assets/images/55f717a3d5bc44c9bc2bfa8f19c07af6.png",
+      "setting": [],
+      "record": {
+        "width": 32,
+        "height": 31,
+        "minWidth": 10,
+        "minHeight": 10,
+        "dir": "all"
+      },
+      "letterSpacing": null,
+      "rotate": 0,
+      "imageTransform": {
+        "a": 1,
+        "b": 0,
+        "c": 0,
+        "d": 1,
+        "tx": 0,
+        "ty": 0
+      },
+      "filter": {
+        "contrast": 0,
+        "sharpness": 0,
+        "hueRotate": 0,
+        "saturate": 0,
+        "brightness": 0,
+        "gaussianBlur": 0,
+        "temperature": 0,
+        "tint": 0
+      },
+      "naturalDuration": 0,
+      "mask": "",
+      "lock": false,
+      "isNinePatch": false,
+      "flip": "",
+      "sliceData": {
+        "ratio": 0,
+        "left": 0
+      },
+      "boxTransform": {
+        "left": 0,
+        "top": 0
+      },
+      "imgUrl_remote": "https://design.palxp.cn:5175/static/template/Zf~R1ud9n3nq-1729173911201/55f717a3d5bc44c9bc2bfa8f19c07af6.png"
+    },
+    {
+      "name": "图片",
+      "type": "w-image",
+      "uuid": "db5f373970ea",
+      "width": 32,
+      "height": 32,
+      "left": 223.75,
+      "top": 820.35,
+      "zoom": 1,
+      "transform": " scale(1) translate(0px, 0px)",
+      "radius": 0,
+      "opacity": 1,
+      "parent": "-1",
+      "imgUrl": "/Users/mlamp/visual-rag/data/assets/images/cb36eaf42cf74649927a0b53f6eb0d17.png",
+      "setting": [],
+      "record": {
+        "width": 32,
+        "height": 32,
+        "minWidth": 10,
+        "minHeight": 10,
+        "dir": "all"
+      },
+      "letterSpacing": null,
+      "rotate": 0,
+      "imageTransform": {
+        "a": 1,
+        "b": 0,
+        "c": 0,
+        "d": 1,
+        "tx": 0,
+        "ty": 0
+      },
+      "filter": {
+        "contrast": 0,
+        "sharpness": 0,
+        "hueRotate": 0,
+        "saturate": 0,
+        "brightness": 0,
+        "gaussianBlur": 0,
+        "temperature": 0,
+        "tint": 0
+      },
+      "naturalDuration": 0,
+      "mask": "",
+      "lock": false,
+      "isNinePatch": false,
+      "flip": "",
+      "sliceData": {
+        "ratio": 0,
+        "left": 0
+      },
+      "boxTransform": {
+        "left": 0,
+        "top": 0
+      },
+      "imgUrl_remote": "https://design.palxp.cn:5175/static/template/Zf~R1ud9n3nq-1729173911201/cb36eaf42cf74649927a0b53f6eb0d17.png"
+    },
+    {
+      "name": "图片",
+      "type": "w-image",
+      "uuid": "1876e2124738",
+      "width": 32,
+      "height": 32,
+      "left": 223.59,
+      "top": 936.18,
+      "zoom": 1,
+      "transform": " scale(1) translate(0px, 0px)",
+      "radius": 0,
+      "opacity": 1,
+      "parent": "-1",
+      "imgUrl": "/Users/mlamp/visual-rag/data/assets/images/10649417d9ca44929f2ca08b01d8bded.png",
+      "setting": [],
+      "record": {
+        "width": 32,
+        "height": 32,
+        "minWidth": 10,
+        "minHeight": 10,
+        "dir": "all"
+      },
+      "letterSpacing": null,
+      "rotate": 0,
+      "imageTransform": {
+        "a": 1,
+        "b": 0,
+        "c": 0,
+        "d": 1,
+        "tx": 0,
+        "ty": 0
+      },
+      "filter": {
+        "contrast": 0,
+        "sharpness": 0,
+        "hueRotate": 0,
+        "saturate": 0,
+        "brightness": 0,
+        "gaussianBlur": 0,
+        "temperature": 0,
+        "tint": 0
+      },
+      "naturalDuration": 0,
+      "mask": "",
+      "lock": false,
+      "isNinePatch": false,
+      "flip": "",
+      "sliceData": {
+        "ratio": 0,
+        "left": 0
+      },
+      "boxTransform": {
+        "left": 0,
+        "top": 0
+      },
+      "imgUrl_remote": "https://design.palxp.cn:5175/static/template/Zf~R1ud9n3nq-1729173911201/10649417d9ca44929f2ca08b01d8bded.png"
+    },
+    {
+      "name": "图片",
+      "type": "w-image",
+      "uuid": "42bf13abf5c0",
+      "width": 32,
+      "height": 32,
+      "left": 223.92,
+      "top": 1032.71,
+      "zoom": 1,
+      "transform": " scale(1) translate(0px, 0px)",
+      "radius": 0,
+      "opacity": 1,
+      "parent": "-1",
+      "imgUrl": "/Users/mlamp/visual-rag/data/assets/images/fa32c56ad52149b2baf65acee067683f.png",
+      "setting": [],
+      "record": {
+        "width": 32,
+        "height": 32,
+        "minWidth": 10,
+        "minHeight": 10,
+        "dir": "all"
+      },
+      "letterSpacing": null,
+      "rotate": 0,
+      "imageTransform": {
+        "a": 1,
+        "b": 0,
+        "c": 0,
+        "d": 1,
+        "tx": 0,
+        "ty": 0
+      },
+      "filter": {
+        "contrast": 0,
+        "sharpness": 0,
+        "hueRotate": 0,
+        "saturate": 0,
+        "brightness": 0,
+        "gaussianBlur": 0,
+        "temperature": 0,
+        "tint": 0
+      },
+      "naturalDuration": 0,
+      "mask": "",
+      "lock": false,
+      "isNinePatch": false,
+      "flip": "",
+      "sliceData": {
+        "ratio": 0,
+        "left": 0
+      },
+      "boxTransform": {
+        "left": 0,
+        "top": 0
+      },
+      "imgUrl_remote": "https://design.palxp.cn:5175/static/template/Zf~R1ud9n3nq-1729173911201/fa32c56ad52149b2baf65acee067683f.png"
+    },
+    {
+      "name": "矢量图形",
+      "type": "w-svg",
+      "uuid": "babe53377628",
+      "width": 116.99999,
+      "height": 6.000021457672119,
+      "colors": [
+        "#9d6c49ff"
+      ],
+      "left": 564.9999722242355,
+      "top": 558.9999055862427,
+      "transform": "",
+      "radius": 0,
+      "opacity": 0.5019607843137255,
+      "parent": "-1",
+      "svgUrl": "https://design.palxp.cn:5175/static/template/Zf~R1ud9n3nq-1729173911201/8a1f18633f2e4c52a8c253dcbae67d09.svg",
+      "setting": [],
+      "record": {
+        "width": 0,
+        "height": 0,
+        "minWidth": 10,
+        "minHeight": 10
+      },
+      "text": "",
+      "letterSpacing": null,
+      "imgUrl": "/Users/mlamp/visual-rag/data/assets/svgs/8a1f18633f2e4c52a8c253dcbae67d09.svg",
+      "rotate": 0,
+      "filter": {
+        "contrast": 0,
+        "sharpness": 0,
+        "hueRotate": 0,
+        "saturate": 0,
+        "brightness": 0,
+        "gaussianBlur": 0,
+        "temperature": 0,
+        "tint": 0
+      },
+      "imgUrl_remote": "https://design.palxp.cn:5175/static/template/Zf~R1ud9n3nq-1729173911201/8a1f18633f2e4c52a8c253dcbae67d09.svg"
+    },
+    {
+      "name": "文本",
+      "type": "w-text",
+      "uuid": "4b99b319c5fe",
+      "editable": false,
+      "left": 282.03,
+      "top": 299.31,
+      "transform": "",
+      "lineHeight": 1.2,
+      "letterSpacing": 11.99867637326274,
+      "fontSize": 151.1,
+      "fontClass": {
+        "alias": "站酷快乐体",
+        "id": 543,
+        "value": "zcool-kuaile-regular",
+        "url": "/Users/mlamp/visual-rag/data/assets/fonts/zcool-kuaile-regular.woff2",
+        "url_remote": "https://lib.baomitu.com/fonts/zcool-kuaile/zcool-kuaile-regular.woff2"
+      },
+      "fontWeight": 400,
+      "fontStyle": "normal",
+      "writingMode": "horizontal-tb",
+      "textDecoration": "none",
+      "color": "#cbb19fff",
+      "textAlign": "center",
+      "text": "课程优势",
+      "opacity": 1,
+      "backgroundColor": "",
+      "parent": "-1",
+      "record": {
+        "width": 673,
+        "height": 181,
+        "minWidth": 151.1,
+        "minHeight": 181.32,
+        "dir": "horizontal"
+      },
+      "width": 673,
+      "height": 181,
+      "imgUrl": "",
+      "rotate": 0,
+      "filter": {
+        "contrast": 0,
+        "sharpness": 0,
+        "hueRotate": 0,
+        "saturate": 0,
+        "brightness": 0,
+        "gaussianBlur": 0,
+        "temperature": 0,
+        "tint": 0
+      },
+      "textEffects": [
+        {
+          "filling": {
+            "enable": true,
+            "type": 0,
+            "color": "#8f7e72ff",
+            "gradient": {
+              "angle": 90,
+              "stops": []
+            }
+          },
+          "stroke": {
+            "enable": true,
+            "width": 2,
+            "color": "#c2c2c2ff",
+            "type": "outer"
+          },
+          "shadow": {
+            "enable": false,
+            "color": "#000000ff",
+            "offsetX": 0,
+            "offsetY": 0,
+            "blur": 0,
+            "opacity": 0
+          },
+          "offset": {
+            "enable": false,
+            "x": 0,
+            "y": 0
+          }
+        }
+      ],
+      "content": "课程优势"
+    },
+    {
+      "name": "矢量图形",
+      "type": "w-svg",
+      "uuid": "3bc7d317e3fb",
+      "width": 670.1177526712418,
+      "height": 353.6746619755336,
+      "colors": [
+        "#9d6c49ff"
+      ],
+      "left": -60.34880220890045,
+      "top": -46.15217065811157,
+      "transform": "",
+      "radius": 0,
+      "opacity": 1,
+      "parent": "-1",
+      "svgUrl": "https://design.palxp.cn:5175/static/template/Zf~R1ud9n3nq-1729173911201/bd768da169de4bd38cd599811196e31b.svg",
+      "setting": [],
+      "record": {
+        "width": 0,
+        "height": 0,
+        "minWidth": 10,
+        "minHeight": 10
+      },
+      "text": "",
+      "letterSpacing": null,
+      "imgUrl": "/Users/mlamp/visual-rag/data/assets/svgs/bd768da169de4bd38cd599811196e31b.svg",
+      "rotate": 0,
+      "filter": {
+        "contrast": 0,
+        "sharpness": 0,
+        "hueRotate": 0,
+        "saturate": 0,
+        "brightness": 0,
+        "gaussianBlur": 0,
+        "temperature": 0,
+        "tint": 0
+      },
+      "imgUrl_remote": "https://design.palxp.cn:5175/static/template/Zf~R1ud9n3nq-1729173911201/bd768da169de4bd38cd599811196e31b.svg"
+    },
+    {
+      "name": "矢量图形",
+      "type": "w-svg",
+      "uuid": "58b52d1ee293",
+      "width": 1471.3425357341766,
+      "height": 429.7089147565869,
+      "colors": [
+        "#9d6c49ff"
+      ],
+      "left": -113.24716424942017,
+      "top": 1289.1636275605517,
+      "transform": "",
+      "radius": 0,
+      "opacity": 1,
+      "parent": "-1",
+      "svgUrl": "https://design.palxp.cn:5175/static/template/Zf~R1ud9n3nq-1729173911201/2014f4ade964473cad60045ec4861f24.svg",
+      "setting": [],
+      "record": {
+        "width": 0,
+        "height": 0,
+        "minWidth": 10,
+        "minHeight": 10
+      },
+      "text": "",
+      "letterSpacing": null,
+      "imgUrl": "/Users/mlamp/visual-rag/data/assets/svgs/2014f4ade964473cad60045ec4861f24.svg",
+      "rotate": 0,
+      "filter": {
+        "contrast": 0,
+        "sharpness": 0,
+        "hueRotate": 0,
+        "saturate": 0,
+        "brightness": 0,
+        "gaussianBlur": 0,
+        "temperature": 0,
+        "tint": 0
+      },
+      "imgUrl_remote": "https://design.palxp.cn:5175/static/template/Zf~R1ud9n3nq-1729173911201/2014f4ade964473cad60045ec4861f24.svg"
+    }
+  ],
+  "dActiveElement": {
+    "name": "作品名",
+    "type": "page",
+    "uuid": "-1",
+    "left": 0,
+    "top": 0,
+    "width": 1242,
+    "height": 1660,
+    "backgroundColor": "#ffffffff",
+    "backgroundImage": "",
+    "opacity": 1,
+    "tag": 0,
+    "setting": [],
+    "record": {},
+    "unit": "px",
+    "insideLine": 0
+  }
+}

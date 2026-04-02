@@ -1,0 +1,70 @@
+{
+  "id": 7,
+  "slots": [
+    {
+      "uuid": "af55c6e3af3b",
+      "role": "year",
+      "label": "年份",
+      "must_edit": true,
+      "deletable": false,
+      "max_chars": 6,
+      "line_break": false,
+      "hint": "年份数字，如「2025」",
+      "current": "2024",
+      "char_px": 161.2,
+      "element_width_px": 448,
+      "max_per_line": 2,
+      "fill_source": "original_content",
+      "fill_guidance": "根据内容需求填写（当前示例：2024）"
+    },
+    {
+      "uuid": "dfb3275e5ce5",
+      "role": "greeting",
+      "label": "主祝语",
+      "must_edit": false,
+      "deletable": false,
+      "max_chars": 6,
+      "line_break": false,
+      "hint": "节日祝语，保留「新年快乐」或改为对应节日",
+      "current": "新年快乐",
+      "char_px": 278.8,
+      "element_width_px": 930,
+      "max_per_line": 3,
+      "fill_source": "original_content",
+      "fill_guidance": "根据内容需求填写（当前示例：新年快乐）"
+    },
+    {
+      "uuid": "760a0151a5bb",
+      "role": "recipient",
+      "label": "收件人",
+      "must_edit": true,
+      "deletable": false,
+      "max_chars": 16,
+      "line_break": false,
+      "hint": "收信人姓名，如「写给亲朋好友xxx」「送给我最好的朋友」",
+      "current": "写给亲朋好友xxx",
+      "char_px": 57.8,
+      "element_width_px": 348,
+      "max_per_line": 6,
+      "fill_source": "original_content",
+      "fill_guidance": "根据内容需求填写（当前示例：写给亲朋好友xxx）"
+    },
+    {
+      "uuid": "91ce81fbe239",
+      "role": "message_body",
+      "label": "祝福正文",
+      "must_edit": true,
+      "deletable": false,
+      "max_chars": 100,
+      "line_break": true,
+      "hint": "祝福语主体，2-4行，饱满有情感，如「亲爱的xxx，新年到了，愿你在新的一年里...」",
+      "current": "亲爱的龙腾虎跃，新年到又是一年春节到辞旧迎新报春晓何其有幸，年岁并进所求皆吾愿，所求皆坦荡",
+      "char_px": 57.8,
+      "element_width_px": 636,
+      "max_per_line": 11,
+      "fill_source": "original_content",
+      "fill_guidance": "根据内容需求填写（当前示例：亲爱的龙腾虎跃，新年到又是一年春节到辞旧）"
+    }
+  ],
+  "cover": "assets/covers_webp/t7-cover_0.webp"
+}

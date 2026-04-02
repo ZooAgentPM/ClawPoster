@@ -10,17 +10,20 @@ import json, re
 from pathlib import Path
 from urllib.parse import urlparse, parse_qs
 
-RAW_DIR  = Path('/Users/mlamp/visual-rag/data/palxp-raw')
-SVG_DIR  = Path('/Users/mlamp/visual-rag/data/assets/svgs')
-IMG_DIR  = Path('/Users/mlamp/visual-rag/data/assets/images')
-FONT_DIR = Path('/Users/mlamp/visual-rag/data/assets/fonts')
+import os as _os
+_BASE = Path(__file__).parent.parent
+_DATA_DIR = Path(_os.environ.get("VISUAL_RAG_DATA_DIR", str(_BASE / "data")))
+RAW_DIR  = _DATA_DIR / "palxp-raw"
+SVG_DIR  = _DATA_DIR / "assets" / "svgs"
+IMG_DIR  = _DATA_DIR / "assets" / "images"
+FONT_DIR = _DATA_DIR / "assets" / "fonts"
 
 
 def _local_path_for(url: str) -> Path | None:
     """CDN URL 或本地绝对路径 → 本地文件 Path"""
     if not url:
         return None
-    if url.startswith('/Users/mlamp/visual-rag/data/'):
+    if url.startswith(str(_DATA_DIR)):
         p = Path(url)
         return p if (p.exists() and p.is_file()) else None
     fname = url.split('/')[-1].split('?')[0]
@@ -40,11 +43,11 @@ def _fix_image_url(url: str) -> str:
     if url.startswith('http'):
         local = _local_path_for(url)
         if local:
-            rel = local.relative_to(Path('/Users/mlamp/visual-rag/data'))
+            rel = local.relative_to(_DATA_DIR)
             return f'http://127.0.0.1:7001/assets/{rel}'
         return url
-    if url.startswith('/Users/mlamp/visual-rag/data/'):
-        rel = Path(url).relative_to(Path('/Users/mlamp/visual-rag/data'))
+    if url.startswith(str(_DATA_DIR)):
+        rel = Path(url).relative_to(_DATA_DIR)
         return f'http://127.0.0.1:7001/assets/{rel}'
     return url
 

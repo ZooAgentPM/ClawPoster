@@ -1,0 +1,240 @@
+{
+  "dWidgets": [
+    {
+      "name": "图片",
+      "type": "w-image",
+      "uuid": "cd759f29215e",
+      "width": 1243,
+      "height": 1661,
+      "left": 0,
+      "top": 0,
+      "zoom": 1,
+      "transform": " scale(1) translate(0px, 0px)",
+      "radius": 0,
+      "opacity": 0.45098039215686275,
+      "parent": "-1",
+      "imgUrl": "/Users/mlamp/visual-rag/data/assets/images/20201124-145810-e6e2.jpg",
+      "mask": "https://design.palxp.cn:5175/static/template/dMAgVajWWJMT-1729174714705/20201124-145810-9411.jpg",
+      "setting": [],
+      "record": {
+        "width": 1243,
+        "height": 1661,
+        "minWidth": 10,
+        "minHeight": 10,
+        "dir": "all"
+      },
+      "letterSpacing": null,
+      "rotate": 0,
+      "imageTransform": {
+        "a": 1,
+        "b": 0,
+        "c": 0,
+        "d": 1,
+        "tx": 0,
+        "ty": 0
+      },
+      "filter": {
+        "contrast": 0,
+        "sharpness": 0,
+        "hueRotate": 0,
+        "saturate": 0,
+        "brightness": 0,
+        "gaussianBlur": 0.5,
+        "temperature": 0,
+        "tint": 0
+      },
+      "naturalDuration": 0,
+      "imgUrl_remote": "https://design.palxp.cn:5175/static/template/dMAgVajWWJMT-1729174714705/20201124-145810-e6e2.jpg"
+    },
+    {
+      "name": "文本",
+      "type": "w-text",
+      "uuid": "fc0680aa588f",
+      "editable": false,
+      "left": 72.93,
+      "top": 423.2,
+      "transform": "",
+      "lineHeight": 1.21,
+      "letterSpacing": 16,
+      "fontSize": 144.4717066911091,
+      "fontClass": {
+        "alias": "站酷快乐体",
+        "id": 543,
+        "value": "zcool-kuaile-regular",
+        "url": "/Users/mlamp/visual-rag/data/assets/fonts/zcool-kuaile-regular.woff2",
+        "url_remote": "https://lib.baomitu.com/fonts/zcool-kuaile/zcool-kuaile-regular.woff2"
+      },
+      "fontWeight": 400,
+      "fontStyle": "normal",
+      "writingMode": "horizontal-tb",
+      "textDecoration": "none",
+      "color": "#ffffffff",
+      "textAlign": "center",
+      "text": "一般人不知道的小众网站",
+      "opacity": 1,
+      "backgroundColor": "",
+      "parent": "-1",
+      "record": {
+        "width": 1123,
+        "height": 350,
+        "minWidth": 144.4717066911091,
+        "minHeight": 174.810765096242,
+        "dir": "horizontal"
+      },
+      "width": 1123.44,
+      "height": 350,
+      "imgUrl": "",
+      "rotate": 0,
+      "filter": {
+        "contrast": 0,
+        "sharpness": 0,
+        "hueRotate": 0,
+        "saturate": 0,
+        "brightness": 0,
+        "gaussianBlur": 0,
+        "temperature": 0,
+        "tint": 0
+      },
+      "textEffects": [
+        {
+          "filling": {
+            "enable": true,
+            "type": 0,
+            "color": "#ffffffff",
+            "gradient": {
+              "angle": 90,
+              "stops": []
+            }
+          },
+          "stroke": {
+            "enable": true,
+            "width": 1,
+            "color": "#000000ff",
+            "type": "outer"
+          },
+          "shadow": {
+            "enable": true,
+            "color": "#000000ff",
+            "offsetX": 5,
+            "offsetY": 5,
+            "blur": 12,
+            "opacity": 0
+          },
+          "offset": {
+            "enable": false,
+            "x": 0,
+            "y": 0
+          }
+        }
+      ],
+      "content": "一般人不知道的小众网站"
+    },
+    {
+      "name": "矢量图形",
+      "type": "w-svg",
+      "uuid": "d5c38e61e9f7",
+      "width": 709.6179961853027,
+      "height": 129.92143635883707,
+      "colors": [
+        "#133331ff"
+      ],
+      "left": 266.69100190734855,
+      "top": 874.2094601799289,
+      "transform": "",
+      "radius": 0,
+      "opacity": 0.8,
+      "parent": "-1",
+      "svgUrl": "https://design.palxp.cn:5175/static/template/dMAgVajWWJMT-1729174714705/20201124-145810-ac18.svg",
+      "setting": [],
+      "record": {
+        "width": 0,
+        "height": 0,
+        "minWidth": 10,
+        "minHeight": 10
+      },
+      "text": "",
+      "letterSpacing": null,
+      "imgUrl": "/Users/mlamp/visual-rag/data/assets/svgs/20201124-145810-ac18.svg",
+      "rotate": 0,
+      "filter": {
+        "contrast": 0,
+        "sharpness": 0,
+        "hueRotate": 0,
+        "saturate": 0,
+        "brightness": 0,
+        "gaussianBlur": 0,
+        "temperature": 0,
+        "tint": 0
+      },
+      "imgUrl_remote": "https://design.palxp.cn:5175/static/template/dMAgVajWWJMT-1729174714705/20201124-145810-ac18.svg"
+    },
+    {
+      "name": "文本",
+      "type": "w-text",
+      "uuid": "6d19f8deaab1",
+      "editable": false,
+      "left": 353.24800000000005,
+      "top": 892.1701783593473,
+      "transform": "",
+      "lineHeight": 1.3,
+      "letterSpacing": 13.883040935672513,
+      "fontSize": 68.4,
+      "fontClass": {
+        "alias": "站酷快乐体",
+        "id": 543,
+        "value": "zcool-kuaile-regular",
+        "url": "/Users/mlamp/visual-rag/data/assets/fonts/zcool-kuaile-regular.woff2",
+        "url_remote": "https://lib.baomitu.com/fonts/zcool-kuaile/zcool-kuaile-regular.woff2"
+      },
+      "fontWeight": 400,
+      "fontStyle": "normal",
+      "writingMode": "horizontal-tb",
+      "textDecoration": "none",
+      "color": "#ffffffff",
+      "textAlign": "center",
+      "text": "每个都好用到哭",
+      "opacity": 1,
+      "backgroundColor": "",
+      "parent": "-1",
+      "record": {
+        "width": 0,
+        "height": 0,
+        "minWidth": 0,
+        "minHeight": 0,
+        "dir": "horizontal"
+      },
+      "width": 545.9999999999999,
+      "height": 90,
+      "imgUrl": "",
+      "rotate": 0,
+      "filter": {
+        "contrast": 0,
+        "sharpness": 0,
+        "hueRotate": 0,
+        "saturate": 0,
+        "brightness": 0,
+        "gaussianBlur": 0,
+        "temperature": 0,
+        "tint": 0
+      },
+      "content": "每个都好用到哭"
+    }
+  ],
+  "dActiveElement": {
+    "name": "作品名",
+    "type": "page",
+    "uuid": "-1",
+    "left": 0,
+    "top": 0,
+    "width": 1242,
+    "height": 1660,
+    "backgroundColor": "#212429ff",
+    "backgroundImage": "",
+    "opacity": 1,
+    "tag": 0,
+    "setting": [],
+    "record": {},
+    "unit": "px",
+    "insideLine": 0
+  }
+}

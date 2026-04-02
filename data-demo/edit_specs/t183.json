@@ -1,0 +1,70 @@
+{
+  "id": 183,
+  "slots": [
+    {
+      "uuid": "fab958417d65",
+      "role": "main_title",
+      "label": "主标题",
+      "must_edit": true,
+      "deletable": false,
+      "max_chars": 10,
+      "line_break": false,
+      "hint": "职业/话题关键词，如「新媒体运营」「副业起步」「英语学习」",
+      "current": "新媒体运营",
+      "char_px": 158.1,
+      "element_width_px": 792,
+      "max_per_line": 5,
+      "fill_source": "original_content",
+      "fill_guidance": "根据用户内容主题创作，需简洁有力，直击核心"
+    },
+    {
+      "uuid": "57fd1b7ced1e",
+      "role": "brand",
+      "label": "账号名",
+      "must_edit": false,
+      "deletable": false,
+      "max_chars": 16,
+      "line_break": false,
+      "hint": "带@的账号名，如「@你的账号」",
+      "current": "@xx工作室",
+      "char_px": 71.2,
+      "element_width_px": 424,
+      "max_per_line": 5,
+      "fill_source": "real_user_data",
+      "fill_guidance": "填写真实的品牌英文/拼音名，不能编造"
+    },
+    {
+      "uuid": "ddbe3b17aeb4",
+      "role": "subtitle",
+      "label": "副标题",
+      "must_edit": true,
+      "deletable": false,
+      "max_chars": 14,
+      "line_break": false,
+      "hint": "一句话说明主题，如「出路与前景分析」「三大方向全拆解」",
+      "current": "出路和未来 前景分析",
+      "char_px": 58.0,
+      "element_width_px": 536,
+      "max_per_line": 9,
+      "fill_source": "original_content",
+      "fill_guidance": "配合主标题，补充说明或引发兴趣"
+    },
+    {
+      "uuid": "6e14775b7e0a",
+      "role": "hashtag",
+      "label": "话题标签",
+      "must_edit": false,
+      "deletable": false,
+      "max_chars": 12,
+      "line_break": false,
+      "hint": "装饰性话题标签，可保留或改为相关话题",
+      "current": "#还有更多机会",
+      "char_px": 58.0,
+      "element_width_px": 382,
+      "max_per_line": 6,
+      "fill_source": "original_content",
+      "fill_guidance": "根据内容需求填写（当前示例：#还有更多机会）"
+    }
+  ],
+  "cover": "assets/covers_webp/t183-cover_0.webp"
+}

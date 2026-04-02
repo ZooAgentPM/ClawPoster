@@ -1,0 +1,38 @@
+{
+  "id": 180,
+  "slots": [
+    {
+      "uuid": "4b99b319c5fe",
+      "role": "main_title",
+      "label": "主标题",
+      "must_edit": true,
+      "deletable": false,
+      "max_chars": 16,
+      "line_break": false,
+      "hint": "示例：课程优势",
+      "current": "课程优势",
+      "char_px": 157.1,
+      "element_width_px": 673.0,
+      "max_per_line": 4,
+      "fill_source": "original_content",
+      "fill_guidance": "根据用户内容主题创作，需简洁有力，直击核心"
+    },
+    {
+      "uuid": "abdab5dbb638",
+      "role": "subtitle",
+      "label": "副标题",
+      "must_edit": true,
+      "deletable": false,
+      "max_chars": 72,
+      "line_break": false,
+      "hint": "示例：01.小班教学，1V1手把手指导\n02.",
+      "current": "01.小班教学，1V1手把手指导\n02.理论+实操科学排课，高效教学\n03.热门",
+      "char_px": 44.0,
+      "element_width_px": 827.0,
+      "max_per_line": 18,
+      "fill_source": "original_content",
+      "fill_guidance": "配合主标题，补充说明或引发兴趣"
+    }
+  ],
+  "cover": "assets/covers_webp/t180-cover_0.webp"
+}
