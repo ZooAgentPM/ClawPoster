@@ -11,7 +11,7 @@
     ↓ HTTPS MCP
 ngrok 公网隧道（静态域名）
     ↓
-mcp_server.py（port 3000）
+mcp_server.py（port 3001）
     ↓
 render_server.py（port 7002，Playwright 渲染）
     ↓
@@ -25,7 +25,7 @@ Vite 前端（port 5173）+ mock API（port 7001）
 在执行任何启动操作前，先检查：
 
 ```bash
-lsof -i -nP | grep LISTEN | grep -E ":3000|:7001|:5173|:7002"
+lsof -i -nP | grep LISTEN | grep -E ":3001|:7001|:5173|:7002"
 curl -s http://localhost:4040/api/tunnels | python3 -c "
 import sys,json
 d=json.load(sys.stdin)
@@ -34,7 +34,7 @@ for t in d.get('tunnels',[]):
 " 2>/dev/null || echo "ngrok 未运行"
 ```
 
-**理想状态**：4 个端口都有进程在监听，ngrok 指向 localhost:3000。
+**理想状态**：4 个端口都有进程在监听，ngrok 指向 localhost:3001。
 
 ---
 
@@ -82,12 +82,12 @@ curl http://127.0.0.1:7002/health
 # 期望返回：{"status":"ready","browser":"connected"}
 ```
 
-### 4. MCP HTTP server（port 3000）
+### 4. MCP HTTP server（port 3001）
 
 ```bash
 cd /Users/mlamp/visual-rag
 VISUAL_RAG_PUBLIC_URL="https://syncopated-retractively-anitra.ngrok-free.dev" \
-  .venv/bin/python src/mcp_server.py --port 3000 &
+  .venv/bin/python src/mcp_server.py --port 3001 &
 ```
 
 > `VISUAL_RAG_PUBLIC_URL` 必须注入，否则渲染响应不含下载链接。
@@ -97,7 +97,7 @@ VISUAL_RAG_PUBLIC_URL="https://syncopated-retractively-anitra.ngrok-free.dev" \
 ```bash
 # 免费账号同时只能跑 1 个 session，有旧进程先 kill
 kill $(pgrep ngrok) 2>/dev/null
-ngrok http 3000 --domain=syncopated-retractively-anitra.ngrok-free.dev --log=stdout &
+ngrok http 3001 --domain=syncopated-retractively-anitra.ngrok-free.dev --log=stdout &
 
 # 验证隧道
 sleep 3
