@@ -951,7 +951,7 @@ function renderStep(s) {
   if (s.data && s.data.grid_url) {
     extra = `<img class="thumb" src="${s.data.grid_url}" alt="模板预览">`;
   }
-  if (isDone && s.data && s.data.render_url) {
+  if (s.data && s.data.render_url) {
     extra = `<img class="render-img" src="${s.data.render_url}" alt="渲染结果">
       <a class="dl-btn" href="${s.data.render_url}" download>⬇ 下载图片</a>`;
   }
