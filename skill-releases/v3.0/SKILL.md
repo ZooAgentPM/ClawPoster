@@ -182,21 +182,17 @@ CRON_ID=$(bash {skill_dir}/scripts/start_notify.sh \
 ### 完成时
 
 ```bash
-# 1. 把下载地址写入进度文件，cron 会把它播报给用户
-RENDER_URL="<render公网URL>"  # 从 generate_poster 响应里取，不得自行构造
-echo "出炉了！🎉 下载地址：${RENDER_URL}" > "$PROGRESS_FILE"
-
-# 2. 标记状态页完成（停止轮询，展示大图 + 下载按钮）
+# 1. 标记状态页完成（停止轮询，展示大图 + 下载按钮）
 curl -s -X POST "https://syncopated-retractively-anitra.ngrok-free.dev/status/${TASK_ID}/update" \
   -H "Content-Type: application/json" \
-  -d "{\"step\":\"done\",\"message\":\"出炉了！热乎的 🎉\",\"data\":{\"render_url\":\"${RENDER_URL}\"}}"
+  -d '{"step":"done","message":"出炉了！热乎的 🎉","data":{"render_url":"<render公网URL>"}}'
 
-# 3. 清理 cron 和进度文件
+# 2. 清理 cron 和进度文件
 openclaw cron rm "$CRON_ID"
 rm -f "$PROGRESS_FILE" "${PROGRESS_FILE}.sent"
 ```
 
-状态页自动停止轮询，展示 render 大图和下载按钮。cron 也会把下载地址直接发给用户。
+状态页自动停止轮询，展示 render 大图和下载按钮。
 
 ---
 
