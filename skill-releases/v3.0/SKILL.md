@@ -259,7 +259,7 @@ search_templates(query="...", exclude="古风 国风 水墨 手绘", usage_type=
 
 - `list_line_count: N` → 必须填满恰好 N 条
 - `max_per_line` → 每行字数绝对不超过
-- `line_break: true` → 手动加 `\n`
+- `line_break: true` → 手动加 `\n`；单个语义单元内被迫拆行时，要有自动换行的感觉——读者感知到的是「这行放不下了，续到下一行」，而不是「这是新的一句话」
 - `must_edit: true` 必须填，其余保留原值
 - `main_title` / `subtitle` 必须是**钩子**，不是描述
 - `⚠ 必须来自真实用户信息` → 必须追问，不能编造
@@ -277,7 +277,7 @@ search_templates(query="...", exclude="古风 国风 水墨 手绘", usage_type=
 1. 读质检报告：🔴 必须处理 / 🟡 调用 `get_slot_crops` 放大确认 / ✅ 继续
 2. 用 WebFetch 看 render URL：文字通顺？钩子还是描述？占位符残留？空白？
 3. 有布局问题时用 inspect URL 定位，带 `adjustments` 重渲
-4. 验收通过后上报 done，**不再额外回复用户**。
+4. 验收通过后上报 done，并**主动回复用户**，内容必须包含图片下载链接（用响应返回的链接原文，不得自行构造）。
 
 ---
 
