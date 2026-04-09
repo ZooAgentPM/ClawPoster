@@ -924,6 +924,9 @@ _STATUS_HTML = """<!DOCTYPE html>
                 box-shadow: 0 4px 20px rgba(0,0,0,0.6); }
   .done-badge { display: inline-block; background: #1a3a1a; color: #4caf50;
                 padding: 4px 10px; border-radius: 20px; font-size: 13px; margin-top: 8px; }
+  .dl-btn { display: inline-block; margin-top: 12px; padding: 10px 20px;
+            background: #1a73e8; color: #fff; border-radius: 8px; font-size: 14px;
+            text-decoration: none; font-weight: 600; }
 </style>
 </head>
 <body>
@@ -949,7 +952,8 @@ function renderStep(s) {
     extra = `<img class="thumb" src="${s.data.grid_url}" alt="模板预览">`;
   }
   if (isDone && s.data && s.data.render_url) {
-    extra = `<img class="render-img" src="${s.data.render_url}" alt="渲染结果">`;
+    extra = `<img class="render-img" src="${s.data.render_url}" alt="渲染结果">
+      <a class="dl-btn" href="${s.data.render_url}" download>⬇ 下载图片</a>`;
   }
   div.innerHTML = `
     <div class="icon">${icon}</div>
