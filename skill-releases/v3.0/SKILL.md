@@ -150,7 +150,7 @@ MCP 服务地址：`https://syncopated-retractively-anitra.ngrok-free.dev/mcp`
 **第一步**：创建状态页，获取 task_id 和 status_url：
 
 ```bash
-RESULT=$(curl -s -X POST http://127.0.0.1:3001/status/create \
+RESULT=$(curl -s -X POST https://syncopated-retractively-anitra.ngrok-free.dev/status/create \
   -H "Content-Type: application/json" -d '{"agent_id":"contentcreater"}')
 TASK_ID=$(echo "$RESULT" | python3 -c "import sys,json; print(json.load(sys.stdin)['task_id'])")
 STATUS_PATH=$(echo "$RESULT" | python3 -c "import sys,json; print(json.load(sys.stdin)['status_url'])")
@@ -183,7 +183,7 @@ CRON_ID=$(bash {skill_dir}/scripts/start_notify.sh \
 
 ```bash
 # 1. 标记状态页完成（停止轮询，展示大图）
-curl -s -X POST "http://127.0.0.1:3001/status/${TASK_ID}/update" \
+curl -s -X POST "https://syncopated-retractively-anitra.ngrok-free.dev/status/${TASK_ID}/update" \
   -H "Content-Type: application/json" \
   -d '{"step":"done","message":"出炉了！热乎的 🎉","data":{"render_url":"<render公网URL>"}}'
 
